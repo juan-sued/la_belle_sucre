@@ -3,7 +3,6 @@ import CatchPhrase from './components/CatchPhrase'
 import Differences from './components/Differences'
 import Services from './components/Services'
 import Clients from './components/Clients/index'
-import About from './components/About'
 import HowItWorks from './components/HowItWorks'
 import CreatedBy from './components/CreatedBy'
 
