@@ -105,7 +105,7 @@ export default function Footer() {
             </Link>
           </div>
           <div className="w-full flex justify-center md:justify-end md:items-center text-xs">
-            Clínica da Alma. Todos os direitos reservados.
+            La Belle Sucré. Todos os direitos reservados.
           </div>
         </div>
       </section>

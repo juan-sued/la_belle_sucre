@@ -30,17 +30,17 @@ export default function HowItWorks() {
     <>
       <section
         id="how-it-works"
-        className=" overflow-hidden pb-24 md:pt-24  w-full flex flex-col items-center   gap-32 lg:gap-20"
+        className="     w-full flex flex-col items-center   gap-32 lg:gap-20"
       >
         <TitleSection title="3 passos simples" />
         <div className="flex justify-start w-[90%] max-w-scr relative h-0 overflow-visible">
-          <div className=" relative top-16 md:left-[-80px]  md:right-[-95px]  w-[300px] h-[300px]  mt-[-130px]  md:mt-[-350px]   md:w-[400px] md:h-[400px] rounded-full ">
+          <div className=" relative top-16  md:right-[-95px]  mt-[-130px]    md:w-[400px] md:h-[400px] rounded-full ">
             <Image
-              src="/assets/steps-form.svg"
+              src="/assets/chef.svg"
               width="0"
               height="0"
               sizes="100vw"
-              className=" w-fit h-fit "
+              className="  w-[200px] h-[200px]  "
               alt=""
             />
           </div>
@@ -67,7 +67,7 @@ export default function HowItWorks() {
                   display: progress < 1 ? 'none' : 'grid',
                 }}
               >
-                Cadastre-se preenchendo o formulário.
+                Selecione e customize seu doce favorito.
               </div>
             </div>
 
@@ -87,7 +87,7 @@ export default function HowItWorks() {
                   display: progress < 50 ? 'none' : 'grid',
                 }}
               >
-                Escolha o profissional ou serviço desejado.
+                Selecione o endereço.
               </div>
             </div>
 
@@ -120,20 +120,33 @@ export default function HowItWorks() {
                   display: progress < 100 ? 'none' : 'grid',
                 }}
               >
-                Agende sua consulta gratuitamente.
+                Receba em casa.
               </div>
             </div>
           </div>
         </div>
 
-        <div className="flex justify-end w-[90%] max-w-scr relative h-0 overflow-visible z-[-40] ">
-          <div className=" relative   md:right-[-95px]  w-[200px] h-[200px]  mt-[-150px]  md:mt-[-350px]   md:w-[400px] md:h-[400px]  rounded-full ">
+        <div className="  flex justify-end w-0 max-w-scr relative h-0 overflow-visible z-[-40] ">
+          <div className=" relative    mt-[-150px]  md:mt-[-350px]   md:w-[400px] md:h-[400px]  rounded-full ">
             <Image
-              src="/assets/schedule.svg"
+              src="/assets/options.svg"
               width="0"
               height="0"
               sizes="100vw"
-              className=" w-fit h-fit "
+              className="min-w-[200px] min-h-[200px] "
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div className="flex justify-start w-[90%] max-w-scr relative h-0 overflow-visible">
+          <div className=" relative top-12  md:right-[-95px]  mt-[-130px]    md:w-[400px] md:h-[400px] rounded-full ">
+            <Image
+              src="/assets/delivery.svg"
+              width="0"
+              height="0"
+              sizes="100vw"
+              className="  w-[200px] h-[200px]  "
               alt=""
             />
           </div>

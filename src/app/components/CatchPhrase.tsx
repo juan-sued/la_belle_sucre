@@ -11,12 +11,14 @@ export default function CatchPhrase() {
           Abertos à encomendas
         </h2>
 
-        <Button
-          className="animate__animated animate__fadeIn duration-1000 delay-1000 text-xsm  md:text-xl w-fit h-fit  dark:text-white font-medium"
-          variant="sucess"
-        >
-          Clique aqui para ver o menu
-        </Button>
+        <a href="#services">
+          <Button
+            className="animate__animated animate__fadeIn duration-1000 delay-1000 text-xsm  md:text-xl w-fit h-fit  dark:text-white font-medium"
+            variant="sucess"
+          >
+            Clique aqui para ver o menu
+          </Button>
+        </a>
       </section>
     </>
   )

@@ -39,7 +39,7 @@ export default function DoubleFaceHoverCard({
           <p>{description}</p>
           <a href={href} target="_blank" rel="noopener noreferrer">
             <Button variant="ghost" className="hover:bg-red-200">
-              Ver história de {title.split(' ')[0]}
+              Saiba mais
             </Button>
           </a>
         </div>
