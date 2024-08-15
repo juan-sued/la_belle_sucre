@@ -22,7 +22,7 @@ export default function CarouselClients() {
       }}
       plugins={[plugin.current]}
       onMouseEnter={plugin.current.stop}
-      onMouseLeave={plugin.current.play}
+      onMouseLeave={() => plugin.current.play}
       className=" w-[99.40vw]  "
     >
       <div className=" flex w-full justify-end gap-2 px-8 ">
