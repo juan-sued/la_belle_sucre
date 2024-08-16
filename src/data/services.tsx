@@ -30,6 +30,24 @@ export const servicesList: IServiceItem[] = [
   },
   {
     id: 2,
+    shortName: 'Cone Trufado',
+    title: 'Cones Trufados',
+    description:
+      'Experimente nossos cones trufados, recheados com sabores irresistíveis.',
+    icon: <IceCream className="w-full h-full" />,
+    href: 'https://api.whatsapp.com/send?phone=5521984980723&text=Gostaria%20de%20saber%20mais%20sobre%20os%20cones%20trufados.',
+  },
+  {
+    id: 3,
+    shortName: 'Fondue de Chocolates Nobres',
+    title: 'Fondue de Chocolates Nobres',
+    description:
+      'Ideal para celebrações, nosso fondue de chocolate oferece uma experiência deliciosa.',
+    icon: <SoupIcon className="w-full h-full" />,
+    href: 'https://api.whatsapp.com/send?phone=5521984980723&text=Gostaria%20de%20saber%20mais%20sobre%20o%20fondue%20de%20chocolate.',
+  },
+  {
+    id: 4,
     shortName: 'Waffles',
     title: 'Waffles',
     description:
@@ -39,7 +57,7 @@ export const servicesList: IServiceItem[] = [
   },
 
   {
-    id: 3,
+    id: 5,
     shortName: 'Crepes Franceses',
     title: 'Crepes Franceses',
     description:
@@ -47,24 +65,7 @@ export const servicesList: IServiceItem[] = [
     icon: <SandwichIcon className="w-full h-full" />,
     href: 'https://api.whatsapp.com/send?phone=5521984980723&text=Gostaria%20de%20saber%20mais%20sobre%20os%20crepes%20franceses.',
   },
-  {
-    id: 4,
-    shortName: 'Cone Trufado',
-    title: 'Cones Trufados',
-    description:
-      'Experimente nossos cones trufados, recheados com sabores irresistíveis.',
-    icon: <IceCream className="w-full h-full" />,
-    href: 'https://api.whatsapp.com/send?phone=5521984980723&text=Gostaria%20de%20saber%20mais%20sobre%20os%20cones%20trufados.',
-  },
-  {
-    id: 5,
-    shortName: 'Fondue de Chocolates Nobres',
-    title: 'Fondue de Chocolates Nobres',
-    description:
-      'Ideal para celebrações, nosso fondue de chocolate oferece uma experiência deliciosa.',
-    icon: <SoupIcon className="w-full h-full" />,
-    href: 'https://api.whatsapp.com/send?phone=5521984980723&text=Gostaria%20de%20saber%20mais%20sobre%20o%20fondue%20de%20chocolate.',
-  },
+
   {
     id: 6,
     shortName: 'Bolos e Tortas',

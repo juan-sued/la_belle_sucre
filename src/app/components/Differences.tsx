@@ -4,7 +4,7 @@ import { IDifferenceItem, differencesList } from '@/data/differences'
 export default function Differences() {
   return (
     <>
-      <section className="mt-12  differences pb-10 w-full flex flex-col items-center ">
+      <section className="bg-wave-transparent-to-brown  mt-20  differences pb-32 w-full flex flex-col items-center ">
         <div className="rowCardsDifferences flex flex-col md:flex-row gap-8">
           {differencesList.map((difference, index) => (
             <CardDifference

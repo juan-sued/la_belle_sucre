@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <BackGroundVideo nameVideo="minidonutpink.mp4" />
 
-      <main className="grid  gap-28 mt-[70px] sm:mt-16 w-full ">
+      <main className="grid   mt-[70px] sm:mt-16 w-full  ">
         <CatchPhrase />
         <Differences />
         <HowItWorks />

@@ -90,6 +90,28 @@
   background-position: center;
   box-shadow: inset;
 }
+.bg-wave-transparent-to-brown {
+  
+  background: 
+  url('/assets/wave-transparent-to-brown.svg');
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  box-shadow: inset;
+}
+
+.bg-wave-brown-to-transparent {
+  
+  background: 
+
+  url('/assets/wave-brown-to-transparent.svg');
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  box-shadow: inset;
+}
 
 
 .bg-local-bg-galaxy {

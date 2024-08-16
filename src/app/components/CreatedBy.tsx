@@ -29,55 +29,51 @@ export default function CreatedBy() {
         <div className="flex relative overflow-visible h-0 w-full shadow-inner shadow-primaryTheme-500 z-[-50]">
           <div
             ref={ref}
-            className=" absolute top-0 left-0  w-full   h-[540px] bg-gradient-to-b  from-primaryTheme-500  via-primaryTheme-500/80 to-primaryTheme-500 "
+            className=" absolute top-0 left-0  w-full  h-[540px]   md:h-[740px]  bg-gradient-to-b  from-primaryTheme-500  via-primaryTheme-500/80 to-primaryTheme-500 "
           ></div>
 
           <Image
-            src="/assets/sorriso.jpg"
+            src="/assets/ale-juan-quadrado.jpeg"
             width="0"
             height="0"
             sizes="100vw"
-            className=" mt-24 md:mt-0 w-full h-fit object-cover  md:max-w-[70%]  "
+            className=" mt-24 md:mt-0 w-full h-fit  md:max-w-[70%]  "
             alt=""
           />
         </div>
-        <TitleSection title="Fundador" />
+        <TitleSection title="Quem somos?" className="text-brownTheme-500" />
         <div className="grid md:flex  gap-10 p-4 md:p-20 ">
           <div className="grid justify-center gap-5 w-full  mt-20 ">
             <h1
-              className={`text-3xl  font-bold opacity-0 ${
+              className={`text-3xl  font-bold opacity-0 text-brownTheme-500 ${
                 isVisible ? 'animate__animated animate__fadeIn' : ''
               }`}
             >
-              Luciano Colino
+              Olá! Somos Alê e Juan!
             </h1>
             <p
-              className={`font-medium text-sm md:text-lg opacity-0 ${
+              className={`font-medium text-sm md:text-lg opacity-0  text-brownTheme-500 ${
                 isVisible ? 'animate__animated animate__fadeIn delay-500' : ''
               }`}
             >
-              Natural da cidade de Campos dos Goytacazes – RJ, Casado com
-              Marcelle Colino, tem três filhos.
+              Somos apaixonados por explorar novos sabores e criar doces
+              irresistíveis que encantam!
             </p>
             <p
-              className={`font-medium text-sm md:text-lg opacity-0 ${
+              className={`font-medium text-sm md:text-lg opacity-0 text-brownTheme-500 ${
                 isVisible ? 'animate__animated animate__fadeIn delay-700' : ''
               }`}
             >
-              Graduado em Teologia pela FABERJ, atua como Pastor Evangélico,
-              Fundador da Comunidade Evangélica Celebra Cristo RJ Teólogo,
-              Estudante de Direito, Escritor, Capelão formado pela Ordem dos
-              Capelães do Brasil, Radialista, Articulista , Conferencista,
-              Palestrante, Presidente da Rádio Louvores Fm RJ.
+              Juan é programador e Alê é uma bióloga em formação, mas ambos
+              compartilhamos o mesmo sonho: A confeitaria.
             </p>
             <p
-              className={`font-medium text-sm md:text-lg opacity-0 ${
+              className={`font-medium text-sm md:text-lg opacity-0 text-brownTheme-500 ${
                 isVisible ? 'animate__animated animate__fadeIn delay-1000' : ''
               }`}
             >
-              Fundador e Palestrante da Conferência IDEV “Instruindo Despertar
-              Empreender Vidas” Criada para transformar vidas despertando-as ao
-              propósitos.
+              Unindo inovações e os ingredientes mais naturais, criamos doces
+              únicos e cheios de amor.
             </p>
 
             <div className="flex justify-center">
@@ -86,10 +82,7 @@ export default function CreatedBy() {
                 href={contactList[2].href}
                 className="w-full"
               >
-                <Button
-                  variant="ghost"
-                  className="text-primaryTheme-500 w-full bg-brownTheme-500"
-                >
+                <Button variant="ghost" className="text-brownTheme-500">
                   SAIBA MAIS
                 </Button>
               </Link>
@@ -98,7 +91,7 @@ export default function CreatedBy() {
           <div className="w-full grid justify-center  ">
             <div className="w-[280px] grid place-items-center">
               <Image
-                src="/assets/palestra.jpeg"
+                src="/assets/ale-juan-vertical.jpeg"
                 width="0"
                 height="0"
                 sizes="100vw"

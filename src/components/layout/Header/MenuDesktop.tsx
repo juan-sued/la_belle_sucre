@@ -67,9 +67,9 @@ export function MenuDesktop() {
               </NavigationMenuContent>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href="#about-us" legacyBehavior passHref>
+              <Link href="#how-it-works" legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  O que é?
+                  Como funciona?
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>

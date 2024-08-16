@@ -6,6 +6,8 @@ import LogoAndName from './LogoAndName'
 import { MenuDesktop } from './MenuDesktop'
 import { Button } from '@/components/ui/button'
 import { ArrowUpRightFromCircle } from 'lucide-react'
+import Link from 'next/link'
+import { contactList } from '@/data/contact'
 
 export default function Header() {
   const [scrollPosition, setScrollPosition] = useState(0)
@@ -45,10 +47,12 @@ export default function Header() {
       >
         <LogoAndName />
         <MenuDesktop />
-        <div className="bg-white text-zinc-500 hidden lg:flex relative w-0 right-[190px]">
-          <Button className="w-fit whitespace-nowrap gap-2">
-            Encomendar agora <ArrowUpRightFromCircle size={20} />
-          </Button>
+        <div className=" hidden lg:flex relative w-0 right-[190px]">
+          <Link href={contactList[0].href} target="_blank">
+            <Button className="w-fit whitespace-nowrap gap-2 bg-brownTheme-500 hover:bg-brownTheme-500/80">
+              Encomendar agora <ArrowUpRightFromCircle size={20} />
+            </Button>
+          </Link>
         </div>
 
         <MenuMobile />

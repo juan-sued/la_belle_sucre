@@ -15,9 +15,9 @@ export default function Services() {
     <>
       <section
         id="services"
-        className="differences  w-full flex flex-col items-center  "
+        className="mt-[-2px] bg-wave-brown-to-transparent differences  w-full flex flex-col items-center  "
       >
-        <TitleSection title="Menu" />
+        <TitleSection title="Menu" className="text-primaryTheme-500" />
 
         <Carousel
           opts={{
