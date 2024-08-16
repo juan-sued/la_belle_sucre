@@ -35,29 +35,24 @@ export function MenuMobile() {
                 <DropdownMenuItem className="cursor-pointer">
                   <HomeIcon className="mr-2 h-4 w-4" />
                   <span>Início</span>
-
-                  <DropdownMenuShortcut>⌘I</DropdownMenuShortcut>
                 </DropdownMenuItem>
               </Link>
               <Link href="#about-us">
                 <DropdownMenuItem className="cursor-pointer">
                   <HelpCircleIcon className="mr-2 h-4 w-4" />
                   <span>Quem somos?</span>
-                  <DropdownMenuShortcut>⌘3</DropdownMenuShortcut>
                 </DropdownMenuItem>
               </Link>
               <Link href="#services">
                 <DropdownMenuItem className="cursor-pointer">
                   <HeartPulseIcon className="mr-2 h-4 w-4" />
                   <span>Serviços</span>
-                  <DropdownMenuShortcut>⌘3</DropdownMenuShortcut>
                 </DropdownMenuItem>
               </Link>
               <Link href="#clients">
                 <DropdownMenuItem className="cursor-pointer">
                   <MessageCircleIcon className="mr-2 h-4 w-4" />
                   <span>O que dizem de nós</span>
-                  <DropdownMenuShortcut>⌘3</DropdownMenuShortcut>
                 </DropdownMenuItem>
               </Link>
             </DropdownMenuGroup>
@@ -70,8 +65,6 @@ export function MenuMobile() {
                   {contactList[0].icon}
                   Entrar em contato
                 </div>
-
-                <DropdownMenuShortcut>⌘L</DropdownMenuShortcut>
               </DropdownMenuItem>
             </Link>
           </DropdownMenuContent>
