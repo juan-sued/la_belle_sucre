@@ -42,7 +42,7 @@ export function MenuMobile() {
               <Link href="#about-us">
                 <DropdownMenuItem className="cursor-pointer">
                   <HelpCircleIcon className="mr-2 h-4 w-4" />
-                  <span>O que é?</span>
+                  <span>Quem somos?</span>
                   <DropdownMenuShortcut>⌘3</DropdownMenuShortcut>
                 </DropdownMenuItem>
               </Link>
